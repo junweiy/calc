@@ -15,6 +15,6 @@ if __name__ == '__main__':
 	elif command == 'multiply':
 		print(multiply_all(nums))
 	else:
-		usage = "calc.py [add|multiply] NUM1 [NUM2 [NUM3 [...}}}"
+		usage = "acalc.py [add|multiply] NUM1 [NUM2 [NUM3 [...}}}"
 		print(usage)
 
