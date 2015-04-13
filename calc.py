@@ -16,6 +16,8 @@ if __name__ == '__main__':
 		print(multiply_all(nums))
 	elif command == 'min':
 		print(min(nums))
+	elif command == 'max':
+		print(max(nums))
 	else:
 		usage = "acalc.py [add|multiply] NUM1 [NUM2 [NUM3 [...}}}"
 		print(usage)
